@@ -1,12 +1,11 @@
 .header{
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
     align-items: center;
 }
 
 .header_h2{
-    transform: scale(0.2);
-    height: 110px;
+    transform: scale(0.5);
     width: 10px;
 }
 

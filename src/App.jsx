@@ -1,13 +1,11 @@
-import { Home } from "./components/pages/Home"
 import { Navbar } from "./components/layout/navbar/Navbar";
-import { Card } from "./components/common/Card/Card";
+import { ItemListContainer } from "./components/pages/itemListContainer/ItemListContainer";
 
 function App() {
 
   return <div>
     <Navbar />
-    <Home />
-    <Card />
+    <ItemListContainer />
   </div>
 }
 
